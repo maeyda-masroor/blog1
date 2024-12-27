@@ -1,0 +1,18 @@
+.text-style {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 10px 0;
+  }
+  
+  .code-style {
+    background-color: #f5f5f5; /* Light gray background */
+    color: #d63384; /* Example: Color for code */
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    padding: 15px;
+    border-radius: 5px;
+    overflow-x: auto; /* Scroll for long lines of code */
+    margin: 10px 0;
+  }
+  

@@ -1,0 +1,53 @@
+
+[
+    {
+      "id":"1",
+      "title": "Post 1 Title",
+      "content": [
+        { "type": "text", "value": "This is some text content" },
+        { "type": "code", "value": "const x = 10;" }
+      ],
+      "author": "Author 1",
+      "date": "2024-12-24",
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+    },
+    {
+       "id":"2",
+      "title": "Post 2 Title",
+      "content": [
+        { "type": "text", "value": "This is a paragraph." },
+        { "type": "code", "value": "console.log('Hello, world!');" },
+        { "type": "text", "value": "This is another paragraph." }
+      ],
+      "author": "Author 2",
+      "date": "2024-1-24",
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+    },
+    
+    {
+      "id":"3",
+      "title": "Post 2 Title",
+      "content": [
+        { "type": "text", "value": "This is a paragraph." },
+        { "type": "code", "value": "console.log('Hello, world!');" },
+        { "type": "text", "value": "This is another paragraph." }
+      ],
+      "author": "Author 2",
+      "date": "2024-1-24",
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+    },
+    
+    {
+     "id":"4",
+     "title": "Post 2 Title",
+      "content": [
+        { "type": "text", "value": "This is a paragraph." },
+        { "type": "code", "value": "console.log('Hello, world!');" },
+        { "type": "text", "value": "This is another paragraph." }
+      ],
+      "author": "Author 2",
+      "date": "2024-1-24",
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+  
+    }
+  ]

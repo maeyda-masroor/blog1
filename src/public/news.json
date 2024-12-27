@@ -1,0 +1,52 @@
+
+[
+    {
+      "id": "1",
+      "title": "The New era of Web3.0",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra id justo sed mollis. Aliquam nisl eros, aliquet ac urna in, semper vehicula odio.",
+      "author": "Author 1",
+      "date": "2024-12-24",
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+    },
+    {
+      "id": "2",
+      "title": "The New era of Web3.0",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra id justo sed mollis. Aliquam nisl eros, aliquet ac urna in, semper vehicula odio.",
+      "author": "Author 1",
+      "date": "2024-11-24",
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+    },
+    {
+      "id": "3",
+      "title": "The New era of Web3.0",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra id justo sed mollis. Aliquam nisl eros, aliquet ac urna in, semper vehicula odio.",
+      "author": "Author 1",
+      "date": "2024-1-24",
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+    },
+    {
+      "id": "4",
+      "title": "The New era of Web3.0",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra id justo sed mollis. Aliquam nisl eros, aliquet ac urna in, semper vehicula odio.",
+      "author": "Author 1",
+      "date": "2024-4-24",
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+    },
+    {
+      "id": "5",
+      "title": "The New era of Web3.0",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra id justo sed mollis. Aliquam nisl eros, aliquet ac urna in, semper vehicula odio.",
+      "author": "Author 1",
+      "date": "2024-3-24",
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+    },
+    {
+      "id": "1",
+      "title": "The New era of Web3.0",
+      "desc":"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum viverra id justo sed mollis. Aliquam nisl eros, aliquet ac urna in, semper vehicula odio.",
+      "author": "Author 1",
+      "date": "2024-1-24",
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+    }
+  ]
+  
