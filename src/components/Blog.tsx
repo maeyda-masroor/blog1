@@ -27,12 +27,12 @@ const BlogLayout: React.FC = () => {
   }, []);
     return (
         <div>
-         <div className="container mx-auto p-4">
-        <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3">
+         <div className="container mx-auto p-4 overflow-x-hidden">
+        <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-3 xl:grid-cols-3 2xl:grid-cols-3 overflow-x-hidden mx-auto">
         {blogs.map((item) => (
           <div
             key={item.id}
-            className="bg-white shadow-md rounded-lg overflow-hidden flex"
+            className="bg-white shadow-md rounded-lg overflow-x-hidden flex"
           >
             <div className="relative h-40 w-1/2">
               <Image

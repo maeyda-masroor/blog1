@@ -1,8 +1,8 @@
 "use client"
 const Navbar = () => {
   return (
-    <nav className="bg-white text-black">
-  <div className="container mx-auto p-4 grid grid-cols-1 lg:grid-cols-2 gap-4">
+    <nav className="bg-white text-black overflow-x-hidden mx-auto">
+  <div className="container mx-auto p-4 grid grid-cols-1 lg:grid-cols-2 gap-4 overflow-x-hidden mx-auto">
     <div className="flex items-center justify-center lg:justify-start">
       <a href="#" className="text-xl font-bold">Brand</a>
     </div>

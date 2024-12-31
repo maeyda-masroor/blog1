@@ -26,10 +26,10 @@ const BlogLayout: React.FC = () => {
     setBlogs(sortedBlogs);
   }, []);
     return (
-      <div className="container grid grid-cols-1 lg:grid-cols-[60%,40%] gap-4 max-w-9xl mx-auto p-4">
+      <div className="container grid grid-cols-1 lg:grid-cols-[60%,40%] gap-4   p-4 overflow-x-hidden mx-auto">
         {/* 60% Section */}
         {blogs.length > 0 && (
-        <div className=" bg-white p-6 rounded-lg shadow-md">
+        <div className=" bg-white p-6 rounded-lg shadow-md overflow-x-hidden mx-auto">
          <Image src={blogs[0].image} alt="x" width={500} height={500} className="object-cover w-full h-auto"/>
           <div className="flex gap-5 mt-10">
           <h2 className="text-2xl font-bold mb-2">{blogs[0].title}</h2>
@@ -49,7 +49,7 @@ const BlogLayout: React.FC = () => {
         </div>
         )}
         {/* 40% Section */}
-        <div className=" bg-black text-white p-6 rounded-lg shadow-md overflow-y-auto max-h-96">
+        <div className=" bg-black text-white p-6 rounded-lg shadow-md overflow-y-auto max-h-96 overflow-x-hidden mx-auto">
            <h1 className="text-2xl text-orange-500">News</h1>
           {/* Repeated Items */}
           {blogs.slice(1).map((blog) => (
