@@ -2,52 +2,90 @@
 [
     {
       "id":"1",
-      "title": "Post 1 Title",
+      "title": "Introducing Nextjs 15",
       "content": [
-        { "type": "text", "value": "This is some text content" },
-        { "type": "code", "value": "const x = 10;" }
+        {"type":"heading","value":"Important News..Nextjs15 is released offically and ready to use!!!"},
+        { "type": "text", "value": "Async Request APIs\nCaching Fixes\nReact 19\nBetter Error Messages\nTurbopack\nStatic Route Indicator\nForm Component\nTS Support\nServer Action Security\nESLint 9 Support" },
+        {"type":"text","value":"Installation of Nextjs15"},
+        { "type": "code", "value": "npx create-next-app@latest my-nextjs-app\ncd my-nextjs-app"},
+        {"type":"text","value":"Install Next.js 15"}
       ],
-      "author": "Author 1",
+      "author": "Maeydah Masroor",
       "date": "2024-12-24",
-      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735816554/blog_assign/blog/download_xa41pg.png"
     },
     {
        "id":"2",
       "title": "Post 2 Title",
       "content": [
+        {"type":"heading","value":"this is some text"},
         { "type": "text", "value": "This is a paragraph." },
         { "type": "code", "value": "console.log('Hello, world!');" },
         { "type": "text", "value": "This is another paragraph." }
       ],
       "author": "Author 2",
       "date": "2024-1-24",
-      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735816921/blog_assign/blog/3_yd71tq.png"
     },
     
     {
       "id":"3",
       "title": "Post 2 Title",
       "content": [
-        { "type": "text", "value": "This is a paragraph." },
-        { "type": "code", "value": "console.log('Hello, world!');" },
-        { "type": "text", "value": "This is another paragraph." }
+        {"type":"heading","value":"Simplest Explanation of Context API"},
+        { "type": "text", "value": "The Context API in React is a way to share data or state across multiple components without having to pass it down manually through props at every level. It makes managing global data easier, such as user information, themes, or app settings." },
+        { "type": "code", "value": "import React, { createContext } from 'react';\nconst MyContext = createContext(); // This creates the context." },
+        { "type": "text", "value": "Provide the Data: Use the Provider to wrap the components that need access to the data. You put the data inside the box." },
+        { "type": "code", "value": "const MyProvider = ({ children }) => {\nreturn (\n<MyContext.Provider value='Hello, World!'>\n{children}\n</MyContext.Provider>);};" }
+         
       ],
       "author": "Author 2",
       "date": "2024-1-24",
-      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735816920/blog_assign/blog/1_poixuf.png"
     },
     
     {
      "id":"4",
      "title": "Post 2 Title",
       "content": [
+        {"type":"heading","value":"this is some text"},
         { "type": "text", "value": "This is a paragraph." },
         { "type": "code", "value": "console.log('Hello, world!');" },
         { "type": "text", "value": "This is another paragraph." }
       ],
       "author": "Author 2",
       "date": "2024-1-24",
-      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735187069/blog_assign/news/image-web-3-desktop_wkm4c3.jpg"
+      "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735816921/blog_assign/blog/2_hsnqya.png"
   
-    }
+    },
+
+    {
+      "id":"4",
+      "title": "Post 2 Title",
+       "content": [
+         {"type":"heading","value":"this is some text"},
+         { "type": "text", "value": "This is a paragraph." },
+         { "type": "code", "value": "console.log('Hello, world!');" },
+         { "type": "text", "value": "This is another paragraph." }
+       ],
+       "author": "Author 2",
+       "date": "2024-1-24",
+       "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735816921/blog_assign/blog/2_hsnqya.png"
+   
+     },
+
+    {
+      "id":"4",
+      "title": "Post 2 Title",
+       "content": [
+         {"type":"heading","value":"this is some text"},
+         { "type": "text", "value": "This is a paragraph." },
+         { "type": "code", "value": "console.log('Hello, world!');" },
+         { "type": "text", "value": "This is another paragraph." }
+       ],
+       "author": "Author 2",
+       "date": "2024-1-24",
+       "image":"https://res.cloudinary.com/di1kessdw/image/upload/v1735816921/blog_assign/blog/2_hsnqya.png"
+   
+     }
   ]

@@ -38,9 +38,11 @@ const BlogLayout: React.FC = () => {
               <Image
                 src={item.image}
                 alt={item.title}
-                layout="fill"
+                layout="fit"
+                width={100}
+                height={50}
                 objectFit="cover"
-                className="rounded-t-lg"
+                className="rounded-t-lg h-full w-full"
               />
             </div>
             <div className="p-4">
